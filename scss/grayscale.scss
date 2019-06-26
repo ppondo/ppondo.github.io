@@ -44,10 +44,14 @@ footer {
   margin-right: 10px
 }
 
-// #tech{
-//   transition-timing-function: linear;
-//   transition: h4 1000ms ease-in;
-// }
+#tech{
+  transition: opacity .4s ease-in-out;
+  -webkit-transition: opacity .4s ease-in-out;
+  -moz-transition: opacity .4s ease-in-out;
+  -ms-transition: opacity .4s ease-in-out;
+  -o-transition: opacity .4s ease-in-out;
+  // transition-timing-function: linear;
+}
 
 .icon:hover {
   cursor: pointer;
