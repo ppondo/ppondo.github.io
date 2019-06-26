@@ -39,4 +39,75 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  var tech = document.getElementById('tech')
+  tech.onchange = function() {
+    tech.style.transition='1000ms ease-out'
+  }
+  var react = document.getElementById('react')
+  var redux = document.getElementById('redux')
+  var javascript = document.getElementById('javascript')
+  var ruby = document.getElementById('ruby')
+  var rails = document.getElementById('rails')
+  var post = document.getElementById('post')
+  var html = document.getElementById('html')
+  var css = document.getElementById('css')
+
+  //React
+  react.onmouseover = function() {
+    tech.innerHTML = 'React.js'
+  }
+  react.onmouseleave= function () {
+    tech.innerHTML = 'Developer Toolkit'
+  }
+  //Redux
+  redux.onmouseover = function () {
+    tech.innerHTML = 'Redux.js'
+  }
+  redux.onmouseleave = function () {
+    tech.innerHTML = 'Developer Toolkit'
+  }
+  //JavaScript
+  javascript.onmouseover = function () {
+    tech.innerHTML = 'JavaScript'
+  }
+  javascript.onmouseleave = function () {
+    tech.innerHTML = 'Developer Toolkit'
+  }
+  //Ruby
+  ruby.onmouseover = function () {
+    tech.innerHTML = 'Ruby'
+  }
+  ruby.onmouseleave = function () {
+    tech.innerHTML = 'Developer Toolkit'
+  }
+  //Rails
+  rails.onmouseover = function () {
+    tech.innerHTML = 'Ruby On Rails'
+  }
+  rails.onmouseleave = function () {
+    tech.innerHTML = 'Developer Toolkit'
+  }
+  //Postgresql
+  post.onmouseover = function () {
+    tech.innerHTML = 'PostgreSQL'
+  }
+  post.onmouseleave = function () {
+    tech.innerHTML = 'Developer Toolkit'
+  }
+  //HTML
+  html.onmouseover = function () {
+    tech.innerHTML = 'HTML5'
+  }
+  html.onmouseleave = function () {
+    tech.innerHTML = 'Developer Toolkit'
+  }
+  //CSS
+  css.onmouseover = function () {
+    tech.innerHTML = 'CSS3'
+  }
+  css.onmouseleave = function () {
+    tech.innerHTML = 'Developer Toolkit'
+  }
+
+
 })(jQuery); // End of use strict

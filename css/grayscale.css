@@ -313,6 +313,10 @@ footer {
   margin-right: 10px;
 }
 
+.icon:hover {
+  cursor: pointer;
+}
+
 .iconify {
   color: #764abc;
 }
