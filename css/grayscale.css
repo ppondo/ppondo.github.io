@@ -336,3 +336,8 @@ footer {
   width: 600px;
   max-height: 350px;
 }
+
+.proj-link {
+  color: #da8d19;
+  text-decoration: none;
+}
