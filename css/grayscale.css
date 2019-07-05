@@ -308,9 +308,9 @@ footer {
 }
 
 .icon {
-  font-size: 60px;
+  font-size: 70px;
   vertical-align: top;
-  margin-right: 10px;
+  margin: 0 5px;
 }
 
 #tech {
@@ -366,8 +366,8 @@ footer {
 }
 
 .redux {
-  height: 59px;
-  width: 60px;
+  height: 69px;
+  width: 70px;
 }
 
 .projects-header {
@@ -381,4 +381,8 @@ footer {
   margin: 0;
   font-size: 35px;
   padding-bottom: 10px;
+}
+
+.stuff {
+  margin-top: 65px;
 }
