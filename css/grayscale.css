@@ -337,7 +337,7 @@ footer {
   height: 200px;
   width: 300px;
   border-radius: 5%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .about-section {
@@ -352,4 +352,19 @@ footer {
 .proj-link {
   color: #da8d19;
   text-decoration: none;
+}
+
+.resume {
+  font-size: 23px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.resume:hover {
+  color: #dee2e6;
+}
+
+.redux {
+  height: 59px;
+  width: 60px;
 }
