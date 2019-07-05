@@ -51,6 +51,7 @@ footer {
   -ms-transition: opacity .4s ease-in-out;
   -o-transition: opacity .4s ease-in-out;
   // transition-timing-function: linear;
+  font-size: 30px;
 }
 
 .icon:hover {
@@ -87,7 +88,7 @@ footer {
 }
 
 .resume {
-  font-size: 23px;
+  font-size: 30px;
   padding-bottom: 5px;
   color: $white;
 }
@@ -99,4 +100,13 @@ footer {
 .redux {
   height: 59px;
   width: 60px;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-size: 35px;
+  padding-bottom: 10px;
 }

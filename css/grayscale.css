@@ -319,6 +319,7 @@ footer {
   -moz-transition: opacity .4s ease-in-out;
   -ms-transition: opacity .4s ease-in-out;
   -o-transition: opacity .4s ease-in-out;
+  font-size: 30px;
 }
 
 .icon:hover {
@@ -355,7 +356,7 @@ footer {
 }
 
 .resume {
-  font-size: 23px;
+  font-size: 30px;
   padding-bottom: 5px;
   color: #fff;
 }
@@ -367,4 +368,17 @@ footer {
 .redux {
   height: 59px;
   width: 60px;
+}
+
+.projects-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-size: 35px;
+  padding-bottom: 10px;
 }
