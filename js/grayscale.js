@@ -53,6 +53,10 @@ var rails = document.getElementById('rails')
 var post = document.getElementById('post')
 var html = document.getElementById('html')
 var css = document.getElementById('css')
+var git = document.getElementById('git')
+var aws = document.getElementById('aws')
+var webpack = document.getElementById('webpack')
+var heroku = document.getElementById('heroku')
 
 //React
 react.onmouseover = function () {
@@ -168,6 +172,69 @@ css.onmouseover = function () {
   }, 400);
 }
 css.onmouseleave = function () {
+  tech.style.opacity = 0;
+  setTimeout(function () {
+    tech.innerHTML = 'Developer Toolkit';
+    tech.style.opacity = 1;
+  }, 400);
+}
+//aws
+aws.onmouseover = function () {
+  tech.style.opacity = 0;
+  setTimeout(function () {
+    tech.innerHTML = 'Amazon Web Services';
+    tech.style.opacity = 1;
+  }, 400);
+}
+aws.onmouseleave = function () {
+  tech.style.opacity = 0;
+  setTimeout(function () {
+    tech.innerHTML = 'Developer Toolkit';
+    tech.style.opacity = 1;
+  }, 400);
+}
+
+//git
+git.onmouseover = function () {
+  tech.style.opacity = 0;
+  setTimeout(function () {
+    tech.innerHTML = 'Git';
+    tech.style.opacity = 1;
+  }, 400);
+}
+git.onmouseleave = function () {
+  tech.style.opacity = 0;
+  setTimeout(function () {
+    tech.innerHTML = 'Developer Toolkit';
+    tech.style.opacity = 1;
+  }, 400);
+}
+
+//webpack
+webpack.onmouseover = function () {
+  tech.style.opacity = 0;
+  setTimeout(function () {
+    tech.innerHTML = 'Webpack';
+    tech.style.opacity = 1;
+  }, 400);
+}
+webpack.onmouseleave = function () {
+  tech.style.opacity = 0;
+  setTimeout(function () {
+    tech.innerHTML = 'Developer Toolkit';
+    tech.style.opacity = 1;
+  }, 400);
+}
+
+//heroku
+heroku.onmouseover = function () {
+  tech.style.opacity = 0;
+  setTimeout(function () {
+    tech.innerHTML = 'Heroku';
+    tech.style.opacity = 1;
+  }, 400);
+}
+heroku.onmouseleave = function () {
   tech.style.opacity = 0;
   setTimeout(function () {
     tech.innerHTML = 'Developer Toolkit';
