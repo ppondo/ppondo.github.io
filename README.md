@@ -1,2 +1,2 @@
-# [Check out my Portfolio!](https://patrickpondo.dev)
+# [Check out my Portfolio](https://patrickpondo.dev)
 
